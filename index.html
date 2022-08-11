@@ -10,7 +10,7 @@
    
     <script src="https://kit.fontawesome.com/55987b37bc.js" crossorigin="anonymous"></script>
 
-   
+    <!-- <meta name="viewport" content="Width=device-width, initial-scale=1, minimum-scale=1"> -->
 </head>
 
 <body>
@@ -23,7 +23,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience"> Experience</a></li>
-                <li><a href="#education">Education</a></li>
+                <li><a href="#education" id="education-link">Education</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
 
@@ -82,45 +82,45 @@
                     SKILLS
                 </span>
             </h1>
-            <div class="skills-display">
+            <div class="skills-display" id="skills-container">
                 <div class="skill-progress">
-                    <div class="eighty-five-percent mb-blue">
+                    <div class="eighty-five-percent mb-blue" data-bar-width="80"> 
                         <div class="skill-name"> <span>Java</span></div>
                     </div>
                 </div>
 
                 <div class="skill-progress">
-                    <div class="twenty-five-percent mb-red">
+                    <div class="twenty-five-percent mb-red" data-bar-width="80">
                         <div class="skill-name"> <span>Python</span></div>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div class="twenty-five-percent mb-green">
+                    <div class="twenty-five-percent mb-green" data-bar-width="80">
                         <div class="skill-name"> <span>Html</span></div>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div class="twenty-five-percent mb-violet">
+                    <div class="twenty-five-percent mb-violet" data-bar-width="80">
                         <div class="skill-name"> <span>CSS</span></div>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div class="twenty-five-percent mb-orange">
+                    <div class="twenty-five-percent mb-orange" data-bar-width="80">
                         <div class="skill-name"> <span>JavaScript</span></div>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div class="twenty-five-percent mb-orange">
+                    <div class="twenty-five-percent mb-orange" data-bar-width="80">
                         <div class="skill-name"> <span>JavaScript</span></div>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div class="twenty-five-percent mb-orange">
+                    <div class="twenty-five-percent mb-orange" data-bar-width="80">
                         <div class="skill-name"> <span>JavaScript</span></div>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div class="twenty-five-percent mb-orange">
+                    <div class="twenty-five-percent mb-orange" data-bar-width="80">
                         <div class="skill-name"> <span>JavaScript</span></div>
                     </div>
                 </div>
@@ -326,6 +326,8 @@
         <div id="spacer"></div>
         </section>
     </main>
+
+    <script src="resume.js"></script>
 
 </body>
 
